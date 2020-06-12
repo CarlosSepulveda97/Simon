@@ -3,7 +3,7 @@ const celeste = document.getElementById('celeste')
       const naranja = document.getElementById('naranja')
       const verde = document.getElementById('verde')
       const btnEmpezar = document.getElementById('btnEmpezar')
-      const ULTIMO_NIVEL=2;
+      const ULTIMO_NIVEL=10;
       
       class Juego {
         constructor() {
@@ -20,7 +20,7 @@ const celeste = document.getElementById('celeste')
           this.siguienteNivel=this.siguienteNivel.bind(this)
           this.elegirColor=this.elegirColor.bind(this)
           this.toggleBtnEmpezar()
-          this.nivel=10;
+          this.nivel=1;
           this.colores={
             celeste,
             violeta,
